@@ -17,3 +17,17 @@
 	font-size: 15px;
 }
 
+/*.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}*/
+
+@media (min-width: 970px) and (max-width: 2500px) {
+   .container {
+      width: 970px;
+   }
+}
