@@ -17,11 +17,15 @@
   <!-- Page Container -->
   <div class="container">
       <!-- Nav Bar -->
+    <div class="row">
+      <div class="col-xs-">
         <div id="cnavbar"></div>
+      </div>
+    </div>
     <div class="row">
       <div class="col-xs-">
         <div class="embed-responsive embed-responsive-16by9">
-        <iframe class ="center-block" width="650" height="405" src="https://www.youtube.com/embed/vGX9Gh0JnUo?rel=0" frameborder="0" allowfullscreen></iframe>
+          <iframe class ="center-block" width="650" height="405" src="https://www.youtube.com/embed/vGX9Gh0JnUo?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
         <h1 class="text-center"> Basic Flight Training Preparation</h1>
         <hr>
@@ -44,6 +48,7 @@
       </div>
     </div>
   </div>
+
   <script>
     $.get("./nav.html", function(data){
       $("#cnavbar").replaceWith(data);
