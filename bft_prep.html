@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap/css/custom.css" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
+  <title>Unite System</title>
+</head>
+<body>
+  <!-- Nav Bar -->
+  <div id="cnavbar"></div>
+
+  <!-- Page Container -->
+  <div class="container">
+    <h1 class="text-center"> Basic Flight Training Preparation</h1>
+    <!-- <iframe class ="center-block" width="560" height="315" src="https://www.youtube.com/embed/vGX9Gh0JnUo?rel=0" frameborder="0" allowfullscreen></iframe> -->
+    <iframe class ="center-block" width="600" height="355" src="https://www.youtube.com/embed/vGX9Gh0JnUo?rel=0" frameborder="0" allowfullscreen></iframe>
+    <br><hr>
+    <div class="sans-18">
+      All applicants, trainees, and other such interested pilots watch the above video - and take notes - in order to prepare yourself for Basic Flight Training.
+
+      FFS does Basic Flight Training in the Bf 109 because it's the most simple aircraft to fly due to its automation. As such, some things you must do before the formal training class are bind & memorize these additional non-standard keybindings for the Bf 109:
+      <ul class="sans-12">
+        <li><strong>"Adjustable stabilizer axis":</strong> (bind two keys or an axis to this ONE keybinding)</li>
+        <li><strong>"Switch propellers pitch control mode: manual/auto": </strong>(This turns off automatic prop pitch in the 109 - essential for emergency engine procedures)</li>
+        <li><strong>"Propellers: high pitch"</strong></li>
+        <li><strong>"Propellers: low pitch"</strong></li>
+        <li>Please change the <strong>"Tail wheel lock/unlock"</strong> binding to something not on the "G" key to avoid ground accidents. I use "/", for example.</li>
+        <li>Please change the <strong>"Engage engines start procedure / Stop engine"</strong> binding to a modifier key plus "Home" to avoid accidentally stopping your engine during normal flight operations. I use "RWin + Home", for example. That's the standard DCS:World keybinding for engine starts, so it's easy to remember.</li>
+      </ul>
+      These are not optional steps, these are to ensure that training goes smoothly and we aren't spending our time instructing on keybindings or dealing with accidents that slow down training. Failure to do this will result in being told to leave training and come back during the next class.
+
+      Good luck with training! I look forward to you all passing and being welcomed into FFS!
+    </div>
+
+  </div>
+  <script>
+    $.get("./nav.html", function(data){
+      $("#cnavbar").replaceWith(data);
+    });
+  </script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="assets/js/ie10-viewport-bug-workaround.js"></script> -->
+</body>
+</html>
