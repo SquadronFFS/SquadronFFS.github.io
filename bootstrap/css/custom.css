@@ -41,6 +41,10 @@ body {
 	font-size: 15px;
 }
 
+.nav.navbar-nav.navbar-right {
+    color: #F17F17;
+}
+
 .ffs-orange {
-	color: F17F17;
+	color: #F17F17;
 }
