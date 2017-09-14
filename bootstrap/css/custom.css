@@ -1,3 +1,27 @@
+/*Tweaks and Modifications*/
+/**************************/
+/*Disable upper range responsive media breakpoint*/
+@media (min-width: 970px) and (max-width: 2500px) {
+   .container {
+      width: 970px;
+   }
+}
+
+/*Allow a little padding in phone view*/
+.padit {
+	margin: 15px;
+}
+
+/*keep navbar from overlapping*/
+body {
+	padding-top: 50px;
+}
+
+
+
+/*****************************/
+/* TEXT AND CUSTOM FORMATING*/
+
 .test {
 	border:3px solid #999999;
 	background-color:#f0f8ff;
@@ -15,19 +39,4 @@
 .sans-15 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
-}
-
-/*.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-}
-
-.navbar .navbar-collapse {
-    text-align: center;
-}*/
-
-@media (min-width: 970px) and (max-width: 2500px) {
-   .container {
-      width: 970px;
-   }
 }
