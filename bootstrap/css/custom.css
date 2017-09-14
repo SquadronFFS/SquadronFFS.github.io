@@ -41,6 +41,7 @@ body {
 	font-size: 15px;
 }
 
+/* Change navbar dropdown text*/
 /*.nav.navbar-nav li a {
    color: #A35C15;
  }
@@ -49,7 +50,12 @@ body {
  color: #A35C15;
 }*/
 
+/*ffs orange and font*/
 .ffs-org{
 	color: #CD771C;
+	font-family: 'Lobster', cursive;
+}
+
+.lobster {
 	font-family: 'Lobster', cursive;
 }
