@@ -8,35 +8,33 @@
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="bootstrap/css/custom.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery.min.js"></script>
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Anton|Josefin+Sans|Lobster" rel="stylesheet">
   <link href="font/stylesheet.css" rel="stylesheet">
   <title>Squadron FFS</title>
 </head>
 <body>
-
   <!-- Page Container -->
   <div class="container">
-      <!-- Nav Bar -->
-      <div class="row">
-        <div class="col-xs-">
-          <div id="cnavbar"></div>
-        </div>
-      </div>
-    <div class="row">
-      <!-- <h1 class="text-center" style="font-family: 'Magneto'; font-weight: bold; font-style: normal;"> Welcome to the FFS Squadron!</h1> -->
-      <!-- <h1 class="text-center magneto-reg"> Welcome to the FFS Squadron!</h1> -->
-    </div>
+    <!-- Nav Bar -->
     <div class="row">
       <div class="col-xs-">
-        <img src="images/ffs_poster.jpg" alt="FFS Poster" class="img-responsive img-rounded center-block">
+        <div id="cnavbar"></div>
       </div>
     </div>
+  <!-- Page Content goes below -->
+    <div class="embed-responsive embed-responsive-4by3">
+          <iframe src="https://drive.google.com/file/d/0ByJsQMvXx3gDdHZfWE1kS3NWWDg/preview" width="640" height="480"></iframe>
+    </div>
   </div>
+  <!-- Nav Bar loader -->
   <script>
     $.get("./nav.html", function(data){
       $("#cnavbar").replaceWith(data);
     });
   </script>
+    <!-- <script src="bootstrap/js/custom.js"></script> -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
