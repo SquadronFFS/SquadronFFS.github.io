@@ -95,11 +95,32 @@ body {
 
 /*@import url('https://fonts.googleapis.com/css?family=Anton|Inconsolata');*/
 
-h1,h2,h3,h4 {
-	font-family: 'Anton', sans-serif;
-	text-shadow: 4px 4px 4px #aaa;
+h1 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: #362121;
 }
+
+h2,h3,h4 {
+	font-family: 'Oswald', sans-serif;
+	color: #667A9E;
+	font-size: 170%;
+}
+}
+
 p {
+	font-family: 'Lato', sans-serif;
 	margin-left: 20px;
 }
 
+p {
+	color: #898A87;
+}
+
+.lgray {
+	color: #898A87;
+}
+
+img {
+	object-fit: cover;
+}
