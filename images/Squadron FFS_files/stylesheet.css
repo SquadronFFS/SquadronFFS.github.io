@@ -1,0 +1,23 @@
+/*Font related CSS*/
+@font-face {
+	font-family: 'Magneto';
+	src: url('Magneto-Bold.eot');
+	src: url('Magneto-Bold.eot?#iefix') format('embedded-opentype'),
+		url('Magneto-Bold.woff') format('woff'),
+		url('Magneto-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.magneto-orange {
+    font-family: 'Magneto';
+    font-weight: bold;
+    font-style: normal;
+    color: #CD771C;
+}
+
+.magneto-reg {
+    font-family: 'Magneto';
+    font-weight: bold;
+    font-style: normal;
+}
