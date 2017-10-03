@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap/css/custom.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Anton|Inconsolata" rel="stylesheet">
+  <link href="font/stylesheet.css" rel="stylesheet">
+  <title>Squadron FFS</title>
+</head>
+<body>
+  <!-- Page Container -->
+  <div class="container">
+    <!-- Nav Bar -->
+    <div class="row">
+      <div class="col-xs-">
+        <div id="cnavbar"></div>
+      </div>
+    </div>
+  <!-- Page Content goes below -->
+  <!-- -------------- -->
+  <h1>Mixture Notes: Manual vs. Automatic</h1><hr>
+<h2>I16 type 24</h2><p>
+ Engine mixture control is automatic when the mixture lever is set to maximum. It is possible to manually lean the mixture by moving the mixture control to less than maximum. This also reduces fuel consumption during flight.</p>
+<h2>MiG3 series 24</h2><p>
+ Engine mixture control is automatic when the mixture lever is set to the intermediate (50%) position. It is possible to manually lean the mixture by setting the control to less than 50%. This will reduce fuel consumption during flight.</p>
+<h2>Il2 model of 1941</h2><p>
+ Engine mixture control is automatic when the mixture lever is set to the intermediate (50%) position. It is possible to manually lean the mixture by moving the control lever to less than 50%. This will lower fuel consumption during flight.</p>
+<h2>Pe2 series 35</h2><p>
+ Engine mixture control is manual; it is necessary to lean the mixture if altitude is more than 34 km for optimal engine operation. Also, leaning the mixture allows a reduction in fuel consumption during flight.</p>
+<h2>Ju 88 A4</h2><p>
+ Engine mixture control is automatic.</p>
+<h2>LaGG3 series 29</h2><p>
+ Engine mixture control is manual, it is necessary to lean the mixture if altitude is more than 34 km for optimal engine operation. Also, leaning the mixture allows a reduction in fuel consumption during flight.</p>
+<h2>Yak1 series 69</h2><p>
+ Engine mixture control is manual; it is necessary to lean the mixture if altitude is more than 34 km for optimal engine operation. Also, leaning the mixture allows a reduction in fuel consumption during flight.</p>
+<h2>Il2 model of 1942</h2><p>
+ Engine mixture control is automatic when the mixture lever is set to the intermediate (50%) position. It is possible to manually lean the mixture by moving the control lever to less than 50%. This will lower fuel consumption during flight.</p>
+<h2>Pe2 series 87</h2><p>
+ Engine mixture control is manual; it is necessary to lean the mixture if altitude is more than 34 km for optimal engine operation. Also, leaning the mixture allows a reduction in fuel consumption during flight.</p>
+<h2>Il2 model of 1943</h2><p>
+ Engine mixture control is automatic when the mixture lever is set to the intermediate (50%) position. It is possible to manually lean the mixture by moving the control lever to less than 50%. This will lower fuel consumption during flight.</p>
+<h2>He 111 h26</h2><p>
+ Engine mixture control is automatic.</p>
+<h2>La5 series 8</h2><p>
+ Engine mixture control is automatic when the mixture lever is set to maximum. It is possible to manually lean the mixture by moving the mixture control to less than maximum. This also reduces fuel consumption during flight.</p>
+<h2>Yak1(b) series 127</h2><p>
+ Engine mixture control is manual; it is necessary to lean the mixture if altitude is more than 34 km for optimal engine operation. Also, leaning the mixture allows a reduction in fuel consumption during flight.</p>
+<h2>Hs 129 B2</h2><p>
+ Engine mixture control is automatic. Leaning the mixture manually reduces the fuel consumption during flight.</p>
+<h2>Ju 52/3m g4e</h2><p>
+ Engine mixture control is manual; it is necessary to lean the mixture if altitude is more than 1 km for optimal engine operation. Also, leaning the mixture allows a reduction in fuel consumption during flight.</p>
+  <!-- -------------- -->
+  </div>
+  <!-- Nav Bar loader -->
+  <script>
+    $.get("./nav.html", function(data){
+      $("#cnavbar").replaceWith(data);
+    });
+  </script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="assets/js/ie10-viewport-bug-workaround.js"></script> -->
+</body>
+</html>
