@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap/css/custom.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Anton|Inconsolata" rel="stylesheet">
+  <link href="font/stylesheet.css" rel="stylesheet">
+  <title>Squadron FFS</title>
+</head>
+<body>
+  <!-- Page Container -->
+  <div class="container">
+    <!-- Nav Bar -->
+    <div class="row">
+      <div class="col-xs-">
+        <div id="cnavbar"></div>
+      </div>
+    </div>
+  <!-- Page Content goes below -->
+  <!-- -------------- -->
+    <h1>Full Mission Footage</h1>
+    <p>
+      The following is full mission footage for various FFS sorties.
+    </p>
+    <h2">IL2 1941 Raid of Port of Opuk</h2>
+    <p> Sortie lead by Wookiecat and filmed by Tomatow.  Supported by RocketSurgeon and FrozenLiquidity</p>
+    <div class="embed-responsive embed-responsive-16by9">
+            <iframe class ="center-block" width="650" height="405" src="https://www.youtube.com/embed/yGT2UnS3DMg?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+  <!-- -------------- -->
+  </div>
+  <!-- Nav Bar loader -->
+  <script>
+    $.get("./nav.html", function(data){
+      $("#cnavbar").replaceWith(data);
+    });
+  </script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="assets/js/ie10-viewport-bug-workaround.js"></script> -->
+</body>
+</html>
